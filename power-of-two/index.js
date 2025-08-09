@@ -16,3 +16,12 @@ console.log(isPowerOfTwo(2))
 console.log(isPowerOfTwo(5))
 
 //Big O = O(logn)
+
+//MORE OPTIMAL SOLUTION
+// function isPowerOfTwoBitWise(n){
+//     if(n < 1){
+//         return false
+//     }
+//     return (n & (n - 1)) === 0
+
+// }
